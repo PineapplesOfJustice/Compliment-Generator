@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Crimson+Text|Audiowide|Freckle+Face|Rye|Special+Elite');
+
+body {
+    text-align: center;
+    margin: 0px;
+    background-image: url("http://data.whicdn.com/images/67198855/large.png");
+    background-size: contain;
+}
+
+h1 {
+    font-family: "Special Elite";
+    font-size: 60px;
+    color: yellowgreen;
+    text-shadow: 3px 3px 1px red;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: 0px;
+    cursor: text;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-family: "Cabin";
+    color: #bb07c4;
+    cursor: text;
+}
+
+P {
+    
+    font-family: "Freckle face";
+    color: white;
+    cursor: text;
+}
+
+span {
+    color: #5CCA68;
+}
+
+button {
+    background-color: #2852ba;
+    color: white;
+    font-family: "Audiowide";
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input {
+    font-family: "Rye";
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 4px 	#C2B280 dashed;
+  cursor: crosshair; 
+}
+
+.poem {
+  background-color: rgba(0, 102, 0, 0.8);
+  border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: -3%;
+  min-height: 250px;
+  padding: 20px;
+  color: #add4ff;
+  font-family: "Crimson Text";
+  font-size: 24px;
+}
+
+#copyright{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(230, 255, 230);
+    color: black;
+    font-size: 10px;  
+    padding: 5px;
+    border-radius: 2px;
+    font-family: Audiowide;
+    text-align: center;
+    min-width: 35%;
+    cursor: cell;
+}
